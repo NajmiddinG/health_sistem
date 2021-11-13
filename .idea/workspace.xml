@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e500bc-e734-4e73-acf0-c65584b41dac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Najmiddin\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="D:\Najmiddin\project\student_attendance\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -74,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636734263645</updated>
       <workItem from="1636734265071" duration="4451000" />
-      <workItem from="1636772698806" duration="2043000" />
+      <workItem from="1636772698806" duration="2664000" />
+      <workItem from="1636778376198" duration="565000" />
     </task>
     <servers />
   </component>
@@ -91,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -1,24 +1,19 @@
-from django.db import models
+from django.db.models import models
 
-class Login(models.Model):
-    last_name = models.CharField(max_length=100)
-    first_name = models.CharField(max_length=100)
-    status = models.CharField(max_length=100)
-    tell = models.IntegerField(max_length=20)
+class Clinic(models.Model):
+    pass
 
-
-class Pation(models.Model):
-    name = models.ForeignKey(Login, on_delete=models.CASCADE)
-    type = models.CharField(max_length=200)
-    message = models.TextField(max_length=1000)
-    pation_date = models.DateTimeField(null=True, blank=True)
-    doctor_date = models.DateTimeField(null=True, blank=True)
-    acsepted = models.BooleanField(default=False)
+class Department(models.Model):
+    clinic = models.Foreignkey(Clinic, on_delete=models.CASCADE)
 
 class Doctor(models.Model):
-    name = models.ForeignKey(Login, on_delete=models.CASCADE)
-    pation = models.ForeignKey(Pation, on_delete=models.CASCADE)
-    acsepted = models.BooleanField(default=False)
-    message = models.TextField(max_length=1000)
+    department = models.Foreignkey(Department, on_delete=models.CASCADE)
 
+class Client(models.Model):
+    pass
+
+class Application(models.Model):
+    client = models.Foreignkey(Client,  on_delete=models.CASCADE)
+    doctor = models.Foreignkey(Doctor,  on_delete=models.CASCADE)
+    # message = models.Charfield()
 
